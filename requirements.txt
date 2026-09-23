@@ -1,0 +1,13 @@
+# Python packages used by LLB_RAG.ipynb
+# (The notebook installs these itself in Colab; this file is for reference
+#  or for running outside Colab: pip install -r requirements.txt)
+
+sentence-transformers   # Stage 2: embeddings (all-MiniLM-L6-v2)
+chromadb                # Stage 3: local vector database
+pypdf                   # Stage 1: read PDF files
+python-docx             # Stage 1: read Word (.docx) files
+ollama                  # Stage 4: Python client for the local LLM server
+gradio                  # Section 5: chat UI (works with Gradio 5 and 6)
+
+# Not a pip package: the Ollama server itself (https://ollama.com).
+# The notebook installs it in Colab and pulls the llama3.2:3b model.

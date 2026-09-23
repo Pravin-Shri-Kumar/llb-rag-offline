@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Jupyter / Colab ----
+.ipynb_checkpoints/
+
+# ---- Secrets (none needed today, but never commit them) ----
+.env
+.env.*
+!.env.example
+
+# ---- Generated vector database ----
+vector_db/
+*.sqlite3
+
+# ---- Study documents: keep private, commit only the demo sample ----
+documents/**
+!documents/**/
+!documents/sem2/constitutional_law_2/sample_powers_of_president_answer.txt
+
+# ---- Audio and generated outputs ----
+*.mp3
+*.wav
+*.m4a
+audio/
+output/
+outputs/
+
+# ---- OS clutter ----
+.DS_Store
+Thumbs.db
+desktop.ini
