@@ -28,7 +28,6 @@ It was built as a capstone project for an Agentic AI course, using my KSLU 3-yea
 ## Screenshot
 
 ![Gradio chat UI](docs/screenshot.png)
-<!-- Add a screenshot of the Gradio chat window as docs/screenshot.png -->
 
 ## How it works
 
